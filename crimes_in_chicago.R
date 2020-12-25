@@ -1,8 +1,5 @@
-library(shiny)
-library(shinydashboard)
-library(ggplot2)
-library(leaflet)
-library(dplyr)
+library(pacman)
+pacman::p_load(shiny, shinydashboard, ggplot2, leaflet, dplyr)
 
 ui <- dashboardPage(
   dashboardHeader(title = "Crime Info in Chicago"),
