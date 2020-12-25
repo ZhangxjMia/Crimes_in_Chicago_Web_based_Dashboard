@@ -4,6 +4,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
+* [Technologies](#technologies)
 * [CodeExample](#CodeExample)
 
 ## General info
@@ -15,6 +16,10 @@ This project consists of four parts:
 
 ## Screenshots
 ![Screen Shot 2020-12-20 at 3 36 40 PM](https://user-images.githubusercontent.com/63559049/102727232-5c5f0680-42d9-11eb-9ff5-1bd625029591.png)
+
+## Technologies
+* Programming Language: R
+* Libraries: shiny, shinydashboard, ggplot2, leaflet, dplyr
 
 ## Code Examples
 `  output$distPlot <- renderPlot({
