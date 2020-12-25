@@ -1,5 +1,5 @@
 # R-Projects
-> This is a Shiny App that visualizes the crimes situation in Chicago City from 01/09/2020 to 09/09/2020.
+> This is a web_based Shiny App that visualizes the crime situation in Chicago City from 01/09/2020 to 09/09/2020.
 
 ## Table of contents
 * [General info](#general-info)
