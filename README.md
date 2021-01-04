@@ -22,14 +22,16 @@ This project consists of four parts:
 * Libraries: shiny, shinydashboard, ggplot2, leaflet, dplyr
 
 ## Code Examples
-`  output$distPlot <- renderPlot({
-    month <- input$month
-    my_data <- subset(crimes1, Date == month)
-    ggplot(my_data, aes(x = my_data$Primary.Type,fill = my_data$Primary.Type)) + geom_bar() +
+```R
+output$distPlot <- renderPlot({
+      month <- input$month
+      my_data <- subset(crimes1, Date == month)
+      ggplot(my_data, aes(x = my_data$Primary.Type,fill = my_data$Primary.Type)) + geom_bar() +
       theme(axis.text.x=element_text(angle =- 90, vjust = 0.5)) +
       theme(legend.position="top") +
       scale_fill_discrete(name = "Crime Type") +
       geom_text(stat = 'count', aes(label = stat(count), vjust = -0.2)) +
       xlab("Crime Type") +
       ylab('Frequency')
-  }, height = 450, width = 850)`
+  }, height = 450, width = 850)
+  ```
