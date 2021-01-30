@@ -9,10 +9,10 @@
 
 ## General info
 This project consists of four parts:
-* Tab1: Frequency of crime by Month and Crime Type. 
-* Tab2: Location of Crimes by Date
-* Tab3: Relationship between Crime Type and Time
-* Tab4: Crimes in District
+* Tab1: Frequency of crime by Month and Crime Type. (Histogram)
+* Tab2: Location of Crimes by Date. (Map)
+* Tab3: Relationship between Crime Type and Time. (Heatmap)
+* Tab4: Crimes in District. (Pie Chart)
 
 ## Screenshots
 ![Screen Shot 2020-12-20 at 3 36 40 PM](https://user-images.githubusercontent.com/63559049/102727232-5c5f0680-42d9-11eb-9ff5-1bd625029591.png)
